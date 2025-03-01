@@ -13,11 +13,11 @@
     </style>
     </head>
 <body class="bg-black font-(--font-inter)">
-    <header class="flex m-5">
-        <div class="flex justify-center items-center rounded-full w-[60px] h-[60px] bg-gray-900 border-1 borde-gray-700 ">
+    <header class="flex  m-5">
+        <div class="flex justify-center items-center rounded-full w-[60px] h-[60px] bg-gray-900 border-1 border-gray-700 ">
             <img src="./image/Mark(1).svg" alt="">
         </div>
-        <nav class="w-full flex justify-around items-center flex-1 text-white rounded-full border  gap-[6.6rem] bg-gray-900 ">
+        <nav class="w-full flex justify-around items-center flex-1 text-white rounded-full border-1 border-gray-700  gap-[6.6rem] bg-gray-900 ">
             <a href="ABOUT" class="text-red-500 font-bold">ABOUT</a>
             <a href="PORTFOLIO" class="hidden md:block">PORTFOLIO</a>
             <a href="CONTACT"  class="hidden md:block">CONTACT</a>
@@ -58,107 +58,133 @@
         </div>
     </div>
      </section>
-     <section>
-      <div>
-        <div class="flex gap-3 m-14">
-            <img src="./image/Ellipse 66.svg" alt="">
-            <h1 class="text-white m-3">Recent Work</h1>
-        </div>
-        <div class="text-white m-14 flex justify-between">
+     <div class="grid md:grid-cols-2">
+        <section class="bg-gray-900 rounded-[10px] m-14">
             <div>
-                <p class="font-bold text-red-500">Product designer</p>
-                <p class="text-gray-400">2023 - Present</p>
+              <div class="flex gap-3 m-14">
+                  <img src="./image/Ellipse 66.svg" alt="">
+                  <h1 class="text-white m-3">Recent Work</h1>
+              </div>
+              <div class="text-white m-14 flex justify-between">
+                  <div>
+                      <p class="font-bold text-red-500">Product designer</p>
+                      <p class="text-gray-400">2023 - Present</p>
+                  </div>
+                  <p class="text-gray-400">Figma</p>
+              </div>
+              <div class="flex justify-between text-white m-14">
+                  <div>
+                      <p class="font-bold">UI/UX designer</p>
+                      <p class="text-gray-400">2021 - 2022</p>
+                  </div>
+                  <p class="text-gray-400">Google</p>
+              </div>
+              <div class="flex justify-between text-white m-14">
+                  <div>
+                      <p class="font-bold">Product designer</p>
+                      <p class="text-gray-400">2023 - Present</p>
+                  </div>
+                  <p class="text-gray-400">Figma</p>
+              </div>
+              <div class="flex justify-between text-white m-14 text-gray-400">
+                  <div>
+                      <p class="font-bold">Product designer</p>
+                      <p class="text-gray-400">2023 - Present</p>
+                  </div>
+                  <p class="text-gray-400">Figma</p>
+              </div>
             </div>
-            <p class="text-gray-400">Figma</p>
-        </div>
-        <div class="flex justify-between text-white m-14">
-            <div>
-                <p class="font-bold">UI/UX designer</p>
-                <p class="text-gray-400">2021 - 2022</p>
-            </div>
-            <p class="text-gray-400">Google</p>
-        </div>
-        <div class="flex justify-between text-white m-14">
-            <div>
-                <p class="font-bold">Product designer</p>
-                <p class="text-gray-400">2023 - Present</p>
-            </div>
-            <p class="text-gray-400">Figma</p>
-        </div>
-        <div class="flex justify-between text-white m-14 text-gray-400">
-            <div>
-                <p class="font-bold">Product designer</p>
-                <p class="text-gray-400">2023 - Present</p>
-            </div>
-            <p class="text-gray-400">Figma</p>
-        </div>
-      </div>
-
-     </section>
-     <section class="text-white m-14 ">
-        <div >
-           <div class="w-full h-[82px] bg-gray-900 flex justify-center items-center rounded-[10px]  border-1">
-            <p>Product design</p>
-           </div>
-           <div class="flex mt-10 gap-12 ">
-             <div class="bg-gray-900 w-full h-[82px] flex-1 flex justify-center items-center rounded-[10px]  border-1">
-                <p>User Experience</p>
-             </div>
-             <div class="w-full h-[82px] bg-gray-900 flex-1 flex justify-center items-center rounded-[10px]  border-1">
-                <p>NoCode develop</p>
-             </div>
-           </div>
-        </div> 
-     </section>
-     <section>
-        <div class="text-white">
-            <div class="flex justify-between m-14">
-                <div>
-                    <p class="font-bold">iOS Mobile app</p>
-                    <p>Product develop</p>
+      
+           </section class="md:flex flex-1">
+           <section class="text-white bg-black  rounded-[10px] m-14">
+              <div class="md:">
+                <div class="p-[2px] rounded-[10px] bg-gradient-to-bl from-orange-600 to-transparent via-transparent ">
+                  <div class="w-full h-[82px] bg-gray-900 flex justify-center items-center rounded-[10px]  bg-gradient-to-bl from-orange-600 to-transparent via-transparent">
+                      <p>Product design</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="./image/majesticons_arrow-up-line.svg" alt="">
-                </div>
-            </div>
+                 <div class="flex mt-15 gap-12 ">
+                  <div class="p-[2px] flex flex-1 rounded-[10px] bg-gradient-to-bl from-orange-500  to-gray-900 via-transparent">
+                      <div class="bg-gray-900 w-full h-[82px] flex-1 flex justify-center items-center rounded-[10px] bg-gradient-to-bl from-orange-500 from-1%  to-gray-900 to-100% via-transparent">
+                          <p>User Experience</p>
+                       </div>
+                  </div>
+                   <div class="p-[2px]  flex flex-1 rounded-[10px] bg-gradient-to-bl from-gray-900  to-red-500 via-gray-900 ">
+                      <div class="w-full h-[82px] bg-gray-900  flex justify-center items-center rounded-[10px] bg-gradient-to-bl from-gray-900  to-orange-500 via-gray-900 ">
+                          <p>NoCode develop</p>
+                       </div>
+                   </div>
+                  </div>
+              </div> 
+           </section>
+           <section  class="bg-gray-900 rounded-[10px]  m-14 md:mt-8">
+              <div class="text-white">
+                  <div class="flex justify-between m-14">
+                      <div>
+                          <p class="font-bold">iOS Mobile app</p>
+                          <p>Product develop</p>
+                      </div>
+                      <div>
+                          <img src="./image/majesticons_arrow-up-line.svg" alt="">
+                      </div>
+                  </div>
+                  <div class="flex justify-center items-center">
+                      <img src="./image/iPhone Space gray.svg" alt="">
+                  </div>
+              </div>
+           </section>
+           <div class="md:-mt-67"> 
+              <section  class="bg-gray-900 rounded-[10px] h-[300px]  m-14 md:m-10" >
+                  <div class="text-white">
+                      <div class=" flex justify-between m-14">
+                          <div class="md:p-[10px]">
+                              <p class="font-bold">AI Music product</p>
+                              <p>UX Case study</p>
+                          </div>
+                          <div class="md:p-[10px]">
+                              <img src="./image/majesticons_arrow-up-line.svg" alt="">
+                          </div>
+                      </div>
+                      <div class="flex justify-center items-center ">
+                          <img class="a z-2"  src="./image/Music1.svg" alt="">
+                          <img class="z-1 ml-18 mt-10 absolute" src="./image/Music.svg" alt="">
+                      </div>
+                  </div>
+               </section>
+               <section  class="bg-gray-900 rounded-[10px]  m-14 md:m-10">
+                  <div class="text-white">
+                      <div class="flex justify-between m-14">
+                          <div class="md:p-[10px]">
+                              <p class="font-bold">AI Music product</p>
+                              <p>UX Case study</p>
+                          </div>
+                          <div class="md:p-[10px]">
+                              <img src="./image/majesticons_arrow-up-line.svg" alt="">
+                          </div>
+                      </div>
+                      <div class="flex justify-center items-center">
+                          <img class="z-2" src="./image/Maps.svg" alt="">
+                          <img class="z-1 absolute mt-5 ml-10" src="./image/Mask Group.svg" alt="">
+                      </div>
+                  </div>
+               </section>
+           </div>
+     </div>
+     <section  class=" flex flex-col bg-gray-900 rounded-[10px]  m-14 md:h-[82px]">
+        <div class=" md:flex md:justify-evenly md:flex-row-reverse text-white">
             <div class="flex justify-center items-center">
-                <img src="./image/iPhone Space gray.svg" alt="">
+                <img src="./image/Ellipse 65(1).svg" alt="">
+                <p>AVAILABLE FOR JOB</p>
             </div>
-        </div>
-     </section>
-     <section>
-        <div class="text-white">
-            <div class=" flex justify-between m-14">
-                <div>
-                    <p class="font-bold">AI Music product</p>
-                    <p>UX Case study</p>
-                </div>
-                <div>
-                    <img src="./image/majesticons_arrow-up-line.svg" alt="">
-                </div>
+            <div class="flex justify-around md:flex justify-around mt-10">
+                <p class="text-red-500 font-bold">Twitter</p>
+                <p>Instagram</p>
+                <p>LinkdIn</p>
             </div>
-            <div class="flex justify-center items-center ">
-                <img class="a z-2"  src="./image/Music1.svg" alt="">
-                <img class="z-1 ml-18 mt-10 absolute" src="./image/Music.svg" alt="">
-            </div>
-        </div>
-     </section>
-     <section>
-        <div class="text-white">
-            <div class="flex justify-between m-14">
-                <div>
-                    <p class="font-bold">AI Music product</p>
-                    <p>UX Case study</p>
-                </div>
-                <div>
-                    <img src="./image/majesticons_arrow-up-line.svg" alt="">
-                </div>
-            </div>
-            <div>
-                <img class="z-2" src="./image/Maps.svg" alt="">
-                <img class="z-1 absolute mt-5 ml-10" src="./image/Mask Group.svg" alt="">
+            <div class="flex justify-center items-center mt-10">
+                <p>Portfolio 2024</p>
             </div>
         </div>
      </section>
 </body>
-</html>
+</html> 
